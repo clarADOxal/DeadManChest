@@ -13,7 +13,7 @@ write-host -fore red "██║░░██║█████╗░░███�
 write-host -fore red "██║░░██║██╔══╝░░██╔══██║██║░░██║  ██║╚██╔╝██║██╔══██║██║╚████║  ██║░░██╗██╔══██║██╔══╝░░░╚═══██╗░░░██║░░░"
 write-host -fore red "██████╔╝███████╗██║░░██║██████╔╝  ██║░╚═╝░██║██║░░██║██║░╚███║  ╚█████╔╝██║░░██║███████╗██████╔╝░░░██║░░░"
 write-host -fore red "╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░  ╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝  ░╚════╝░╚═╝░░╚═╝╚══════╝╚═════╝░░░░╚═╝░░░"
-write-host "ThreatHunting : Antiforensic Timestomp 4616 Search on EVTX"
+write-host "ThreatHunting : Search Antiforensic Timestomp on EVTX"
 write-host "Version : 1.5"
 $Creation_Date = "12:50 04/10/2026"
 Write-Host "Usage :" -ForegroundColor Yellow
