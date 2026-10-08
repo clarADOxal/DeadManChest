@@ -37,7 +37,7 @@ $in = (Resolve-Path $path).Path
 $outputFolder = ".\OUT"
 if (-not (Test-Path $outputFolder)) { New-Item -Path $outputFolder -ItemType Directory | Out-Null; Write-Host -ForegroundColor Red "Folder OUT Created" }
 $outputFolderFull = (Resolve-Path $outputFolder).Path
-$outputCsv   = Join-Path -Path $outputFolderFull -ChildPath ("Seach_Binary_" + $timestamp + ".csv")
+$outputCsv   = Join-Path -Path $outputFolderFull -ChildPath ("Search_Binary_" + $timestamp + ".csv")
 
 #Settings 
 $total = 0
